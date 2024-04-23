@@ -35,7 +35,7 @@ namespace converter {
 				if (binary[i] == '1') {
 					output += pow(2, binary.length() - i - 1);
 				}
-				else if (not (binary[i] == '0')) {
+				else if (!(binary[i] == '0')) {
 					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
@@ -76,7 +76,7 @@ namespace converter {
 				if (binary[i] == '1') {
 					output += pow(2, binary.length() - i - 1);
 				}
-				else if (not (binary[i] == '0')) {
+				else if (!(binary[i] == '0')) {
 					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
@@ -117,7 +117,7 @@ namespace converter {
 				if (binary[i] == '1') {
 					output += pow(2, binary.length() - i - 1);
 				}
-				else if (not (binary[i] == '0')) {
+				else if (!(binary[i] == '0')) {
 					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
