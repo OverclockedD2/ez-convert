@@ -36,13 +36,13 @@ namespace converter {
 					output += pow(2, binary.length() - i - 1);
 				}
 				else if (not (binary[i] == '0')) {
-					throw std::exception("[ZEROES & ONES] ERROR: INVALID CHARACTER IN INPUT STRING!");
+					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
 			return (signed_bit == 1 ? -output : output);
 		}
 		else {
-			throw std::exception("[ZEROES & ONES] ERROR: INPUT STRING TOO SHORT!");
+			throw std::exception("[ez-convert] ERROR: INPUT STRING TOO SHORT!");
 		}
 	}
 	std::string long_to_binary(long integer) {
@@ -77,13 +77,13 @@ namespace converter {
 					output += pow(2, binary.length() - i - 1);
 				}
 				else if (not (binary[i] == '0')) {
-					throw std::exception("[ZEROES & ONES] ERROR: INVALID CHARACTER IN INPUT STRING!");
+					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
 			return (signed_bit == 1 ? -output : output);
 		}
 		else {
-			throw std::exception("[ZEROES & ONES] ERROR: INPUT STRING TOO SHORT!");
+			throw std::exception("[ez-convert] ERROR: INPUT STRING TOO SHORT!");
 		}
 	}
 	std::string long_long_to_binary(long long integer) {
@@ -118,13 +118,13 @@ namespace converter {
 					output += pow(2, binary.length() - i - 1);
 				}
 				else if (not (binary[i] == '0')) {
-					throw std::exception("[ZEROES & ONES] ERROR: INVALID CHARACTER IN INPUT STRING!");
+					throw std::exception("[ez-convert] ERROR: INVALID CHARACTER IN INPUT STRING!");
 				}
 			}
 			return (signed_bit == 1 ? -output : output);
 		}
 		else {
-			throw std::exception("[ZEROES & ONES] ERROR: INPUT STRING TOO SHORT!");
+			throw std::exception("[ez-convert] ERROR: INPUT STRING TOO SHORT!");
 		}
 	}
 }
